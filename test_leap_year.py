@@ -1,5 +1,6 @@
+import collections.abc
 import leap_year
-
+collections.Sequence = collections.abc.Sequence
 
 def test_if_divisible_by_4():
     assert leap_year.is_leap_year(4)
